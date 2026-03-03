@@ -82,14 +82,7 @@ if not st.session_state.completed:
 
 if st.session_state.completed:
 
-    st.success("✔ Reconstruction complète")
-    st.subheader("📍 Coordonnées validées")
-    st.code("48.850618 , 2.308939")
-
-    time.sleep(0.8)
+    time.sleep(0.5)
     st.balloons()
 
-    st.markdown("### 🕒 Heure du rendez-vous : 20:30")
-    st.markdown("### 📅 Date : 20/03")
-
-    st.success("MISSION VALIDÉE. RDV confirmé.")
+    st.success("Mission complète. RDV confirmé le 20/03 à 20:30 (précise hein pas 15min de retard)")
