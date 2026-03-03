@@ -2,8 +2,8 @@ import streamlit as st
 
 st.set_page_config(page_title="Mission Archive", page_icon="🔐")
 
-st.title("🔐 Mission : Archive Confidentielle")
-st.write("Réponds correctement aux questions pour débloquer les coordonnées.")
+st.title("🔐 Chapitre 3 : Confidentiel")
+st.write("Réponds correctement aux questions pour débloquer la suite de l'aventure")
 
 # Coordonnées cibles
 LAT_DECIMALS = "850618"
@@ -32,7 +32,7 @@ questions = [
     {"question": "Quelle est la capitale de l'Espagne ?", "answer": "madrid"},
     {"question": "Combien y a-t-il de jours dans une semaine ?", "answer": "7"},
     {"question": "Quelle couleur obtient-on en mélangeant bleu et jaune ?", "answer": "vert"},
-    {"question": "Combien de lettres dans le mot 'amour' ?", "answer": "5"},
+    {"question": "Combien de lettre dans le mot lettre ?", "answer": "6"},
     {"question": "Quelle est la première lettre de l'alphabet ?", "answer": "a"},
 ]
 
