@@ -60,17 +60,17 @@ if not st.session_state.completed:
     if st.session_state.progress < TOTAL_QUESTIONS:
         current_q = questions[st.session_state.progress]
         
-        st.subheader("🔎 Fragment suivant")
+        st.subheader("🔎 Indice suivant")
         user_input = st.text_input(current_q["question"], key="input")
 
-        if st.button("Valider le fragment"):
+        if st.button("Valider l'indice"):
             if user_input.strip().lower() == current_q["answer"]:
                 
                 with st.spinner("Décryptage en cours..."):
                     time.sleep(1.2)
                 
                 st.session_state.progress += 1
-                st.success("Fragment restauré.")
+                st.success("Indice validé")
                 st.rerun()
             else:
                 st.error("Mémoire insuffisante. Réessaie.")
