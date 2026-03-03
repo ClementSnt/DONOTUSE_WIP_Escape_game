@@ -27,7 +27,6 @@ display_coordinates()
 
 st.divider()
 
-# Questions test
 questions = [
     {"question": "Combien font 7 x 8 ?", "answer": "56"},
     {"question": "Quelle est la capitale de l'Espagne ?", "answer": "madrid"},
@@ -37,11 +36,11 @@ questions = [
     {"question": "Quelle est la première lettre de l'alphabet ?", "answer": "a"},
 ]
 
-# Affichage progressif
+# Logique principale
 if st.session_state.progress < len(questions):
     current_q = questions[st.session_state.progress]
     
-    user_input = st.text_input(current_q["question"])
+    user_input = st.text_input(current_q["question"], key="input")
     
     if st.button("Valider"):
         if user_input.strip().lower() == current_q["answer"]:
@@ -53,6 +52,5 @@ if st.session_state.progress < len(questions):
 else:
     st.success("🎉 Coordonnées complètes débloquées.")
     st.markdown("### 📍 48.850618 , 2.308939")
-
-st.balloons()
-st.success("MISSION VALIDÉE. Rendez-vous confirmé.")
+    st.balloons()
+    st.success("MISSION VALIDÉE. Rendez-vous confirmé.")
