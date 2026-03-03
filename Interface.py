@@ -13,7 +13,7 @@ questions = [
     {"question": "Quelle est la capitale de l'Espagne ?", "answer": "madrid"},
     {"question": "Combien y a-t-il de jours dans une semaine ?", "answer": "7"},
     {"question": "Quelle couleur obtient-on en mélangeant bleu et jaune ?", "answer": "vert"},
-    {"question": "Combien de lettres dans le mot 'amour' ?", "answer": "5"},
+    {"question": "Combien de lettres dans le mot 'lettre' ?", "answer": "6"},
     {"question": "Quelle est la première lettre de l'alphabet ?", "answer": "a"},
 ]
 
