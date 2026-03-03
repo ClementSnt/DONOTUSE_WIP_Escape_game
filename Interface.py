@@ -15,10 +15,10 @@ if "progress" not in st.session_state:
 
 # Fonction affichage coordonnées
 def display_coordinates():
-    revealed_digits = st.session_state.progress * 2
+    revealed = st.session_state.progress
     
-    lat_display = LAT_DECIMALS[:revealed_digits] + "_" * (6 - revealed_digits)
-    lon_display = LON_DECIMALS[:revealed_digits] + "_" * (6 - revealed_digits)
+    lat_display = LAT_DECIMALS[:revealed] + "_" * (6 - revealed)
+    lon_display = LON_DECIMALS[:revealed] + "_" * (6 - revealed)
 
     st.subheader("📍 Coordonnées en cours de décryptage :")
     st.write(f"48.{lat_display} , 2.{lon_display}")
