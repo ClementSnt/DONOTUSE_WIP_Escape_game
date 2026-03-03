@@ -50,7 +50,7 @@ if st.session_state.progress < len(questions):
         else:
             st.error("Réponse incorrecte. Réessaie.")
 else:
-    st.success("🎉 Coordonnées complètes débloquées.")
+    st.success("🎉 Félicitations, coordonnées complètes débloquées.")
     st.markdown("### 📍 48.850618 , 2.308939")
     st.balloons()
-    st.success("MISSION VALIDÉE. Rendez-vous confirmé.")
+    st.success("MISSION VALIDÉE. Rendez-vous confirmé le 20/03 20:30.")
