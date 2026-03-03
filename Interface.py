@@ -28,14 +28,14 @@ if "completed" not in st.session_state:
 
 
 st.title("🔐 ARCHIVE CLASSIFIÉE")
-st.caption("Niveau d'accès requis : Mémoire complète")
+st.caption("Error : Niveau d'accès supérieur requis")
 
 
 
 progress_ratio = st.session_state.progress / TOTAL_QUESTIONS
 st.progress(progress_ratio)
 
-st.write(f"Fragments restaurés : {st.session_state.progress} / {TOTAL_QUESTIONS}")
+st.write(f"Chargement des données : {st.session_state.progress} / {TOTAL_QUESTIONS}")
 
 st.divider()
 
