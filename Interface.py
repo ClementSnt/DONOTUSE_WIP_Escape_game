@@ -13,7 +13,7 @@ questions = [
     {"question": "Numéro et rue de la première adresse commune des sousous ?", "answer": "1005 argyle street"},
     {"question": "Où est parti Tof ?", "answer": "il est parti courir"},
     {"question": "Combien de fois Jul prononce t'il le son 'sous' dans son tube 'sousou' ?", "answer": "14"},
-    {"question": "Prénom et Nom du célébre moniteur de parachutisme dont le certificat a été honteusement perdu' ?", "answer": "victor rollinger"},
+    {"question": "Prénom et Nom du célébre moniteur de parachutisme dont le certificat a été honteusement perdu ?", "answer": "victor rollinger"},
     {"question": "Que se dice la sousous antes de cruzar un obstaculo ?", "answer": "a la poté no se falta"},
 ]
 
