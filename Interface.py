@@ -9,12 +9,12 @@ LON_DECIMALS = "308939"
 TOTAL_QUESTIONS = 6
 
 questions = [
-    {"question": "Combien font 7 x 8 ?", "answer": "56"},
-    {"question": "Quelle est la capitale de l'Espagne ?", "answer": "madrid"},
-    {"question": "Combien y a-t-il de jours dans une semaine ?", "answer": "7"},
-    {"question": "Quelle couleur obtient-on en mélangeant bleu et jaune ?", "answer": "vert"},
-    {"question": "Combien de lettres dans le mot 'lettre' ?", "answer": "6"},
-    {"question": "Quelle est la première lettre de l'alphabet ?", "answer": "a"},
+    {"question": "Combien de pays ont visité ensemble les sousous ?", "answer": "13"},
+    {"question": "Numéro et rue de la première adresse commune des sousous ?", "answer": "1005 Argyle Street"},
+    {"question": "Où est parti Tof ?", "answer": "Courir"},
+    {"question": "Combien de fois Jul prononce t'il le son 'sous' dans son tube 'sousou' ?", "answer": "14"},
+    {"question": "Prénom et Nom du célébre moniteur de parachutisme dont le certificat a été honteusement perdu' ?", "answer": "Victor Rollinger"},
+    {"question": "Que se dice la sousous antes de cruzar un obstaculo ?", "answer": "A la poté no se falta"},
 ]
 
 
