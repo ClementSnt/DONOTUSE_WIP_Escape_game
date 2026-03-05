@@ -85,4 +85,4 @@ if st.session_state.completed:
     time.sleep(0.5)
     st.balloons()
 
-    st.success("Mission complète. RDV confirmé le 20/03 à 20:30 (précise hein pas 15min de retard)")
+    st.success("Accès accordé, localisation restaurée. RDV confirmé le 20/03 à 20:30 (précise hein pas 15min de retard)")
